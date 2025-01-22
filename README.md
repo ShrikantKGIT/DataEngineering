@@ -47,29 +47,29 @@ Initial efforts to centralize and reuse content can sometimes lead to increased 
 
 Data governance is a critical framework that ensures the management of an organization's data in terms of its availability, usability, integrity, and security. This framework is built on several technical components and strategies designed to handle complex data challenges:
 
-Data Quality Management: Utilizing advanced data quality software, organizations can address and rectify issues like data inconsistencies, inaccuracies, and incomplete records. These tools are essential for maintaining high data quality by providing functionalities for data cleansing, validation, and enrichment. JPMorgan Chase utilizes Informatica Data Quality to ensure the accuracy of transactional data across its banking systems. This solution aids in compliance with financial regulations and enhances risk management by providing a reliable data foundation.
+**Data Quality Management:** Utilizing advanced data quality software, organizations can address and rectify issues like data inconsistencies, inaccuracies, and incomplete records. These tools are essential for maintaining high data quality by providing functionalities for data cleansing, validation, and enrichment. JPMorgan Chase utilizes Informatica Data Quality to ensure the accuracy of transactional data across its banking systems. This solution aids in compliance with financial regulations and enhances risk management by providing a reliable data foundation.
 
-Master Data Management (MDM): MDM software plays a pivotal role in ensuring data consistency across all systems within the enterprise. It helps create a unified view of business-critical information, which is fundamental for operational effectiveness and reliable analytics. Walmart employs SAP Master Data Governance to ensure uniform product and customer data across its global network of stores and online platforms. This aids in effective inventory management and improves customer service by maintaining consistent data.
+**Master Data Management (MDM):** MDM software plays a pivotal role in ensuring data consistency across all systems within the enterprise. It helps create a unified view of business-critical information, which is fundamental for operational effectiveness and reliable analytics. Walmart employs SAP Master Data Governance to ensure uniform product and customer data across its global network of stores and online platforms. This aids in effective inventory management and improves customer service by maintaining consistent data.
 
-Data Integration: The framework tackles the integration challenges that arise from having to merge data from diverse sources with varying formats. Effective data integration practices are necessary to facilitate seamless data consolidation and accessibility.
+**Data Integration:** The framework tackles the integration challenges that arise from having to merge data from diverse sources with varying formats. Effective data integration practices are necessary to facilitate seamless data consolidation and accessibility.
 Ford Motor Company uses Talend Data Integration tools to consolidate data from its manufacturing, supply chain, and customer feedback systems. This integration supports enhanced analytics that drive improvements in vehicle design and streamline supply chain operations.
 
-Data Security Measures: Implementing robust data security software is paramount. These tools safeguard data against unauthorized access, use, disclosure, modification, disruption, or destruction, thus protecting the organization's digital assets.
+**Data Security Measures**: Implementing robust data security software is paramount. These tools safeguard data against unauthorized access, use, disclosure, modification, disruption, or destruction, thus protecting the organization's digital assets.
 Mayo Clinic implements Symantec Data Loss Prevention to secure patient information across its network. This tool ensures compliance with health care privacy laws like HIPAA by protecting sensitive data from unauthorized access.
 
-Data Stewardship: Designated data stewards are responsible for the governance of specific datasets. Their role is crucial in ensuring the accuracy and reliability of data through continuous monitoring and validation.
+**Data Stewardship:** Designated data stewards are responsible for the governance of specific datasets. Their role is crucial in ensuring the accuracy and reliability of data through continuous monitoring and validation.
 AT&T relies on Collibra Data Governance to manage the integrity and privacy of its customer data. Collibra helps ensure that data stewardship practices at AT&T align with best practices and regulatory standards, thus maintaining customer trust and loyalty.
 
-Data Retirement: The framework also provides for the secure deletion or archival of obsolete data, ensuring compliance with legal and regulatory requirements and optimizing storage management.
+**Data Retirement:** The framework also provides for the secure deletion or archival of obsolete data, ensuring compliance with legal and regulatory requirements and optimizing storage management.
 IBM itself uses IBM Spectrum Protect for managing the lifecycle of its data, particularly for securely archiving and deleting obsolete data in compliance with global data protection regulations and to optimize storage resources.
 
 **Open Source Tools for Data Governance**
 
-Apache Atlas:
+**Apache Atlas:**
 Apache Atlas offers comprehensive governance capabilities designed to meet the complex requirements of data governance and compliance. It provides metadata management and data lineage capabilities, which are crucial for understanding the source and transformation of data across large datasets. Companies like Hortonworks (now part of Cloudera) have utilized Apache Atlas extensively to ensure enterprise-grade data governance in their Hadoop environments, allowing for better management of data classification, security, and compliance.
 
-Amundsen:
+**Amundsen:**
 Developed by Lyft, Amundsen is an open-source data discovery and metadata platform designed to improve the productivity of data analysts, data scientists, and engineers when interacting with data. It integrates easily with existing data sources like Apache Hive and Amazon Redshift, providing a user-friendly interface for searching and browsing datasets, which facilitates greater transparency and oversight in data usage across teams.
 
-Talend Open Studio:
+**Talend Open Studio:**
 Talend Open Studio for Data Quality empowers organizations to cleanse and standardize data, ensuring high data quality and reliability for accurate analytics and decision-making. This tool is widely adopted for its robust features in data integration, quality, and profiling. It allows users to define rules for data validation and enrichment that help maintain the integrity and accuracy of data in systems like PostgreSQL and MongoDB, enhancing overall data governance and operational efficiency.
